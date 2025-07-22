@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0;
+  color: #880044;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #cc0066;
+}
+
+.malla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ramo {
+  border: 2px solid #ff99cc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff0f5;
+  box-shadow: 0 0 10px #ffcce6;
+}
+
+.ramo h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ramo button {
+  padding: 10px;
+  background-color: #ff99cc;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ramo button:disabled {
+  background-color: #f2c2d6;
+  cursor: not-allowed;
+}
+
+.ramo button.aprobado {
+  background-color: #d63384;
+}
+
+.ramo button.regular {
+  background-color: #ffb3d9;
+  color: #880044;
+}
